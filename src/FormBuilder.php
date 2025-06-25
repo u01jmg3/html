@@ -1420,7 +1420,7 @@ class FormBuilder
      */
     protected function transformKey($key)
     {
-        return str_replace(['.', '[]', '[', ']'], ['_', '', '.', ''], $key);
+        return str_replace(['.', '[]', '[', ']'], ['_', '', '.', ''], $key ?? '');
     }
 
     /**
