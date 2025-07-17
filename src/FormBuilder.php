@@ -76,6 +76,13 @@ class FormBuilder
      */
     protected $labels = [];
 
+    /**
+     * An array of payloads we've created.
+     *
+     * @var array
+     */
+    protected $payload = [];
+
     protected $request;
 
     /**
